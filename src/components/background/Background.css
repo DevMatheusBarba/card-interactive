@@ -1,0 +1,16 @@
+.main-container {
+  display: flex;
+  margin: 10vh 10vw;
+  box-shadow: 5px 0px 10px #888888;
+}
+
+.card-container {
+  background-image: url('../../assets/images/bg-main-desktop.png');
+  height: 80vh;
+  aspect-ratio: 700 / 900;
+  background-size: cover;
+}
+
+.input-container {
+  min-width: 1000px
+}
