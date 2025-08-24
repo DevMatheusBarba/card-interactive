@@ -1,0 +1,55 @@
+:root{
+  --cinza: hsl(270, 3%, 87%)
+}
+
+.form{
+  position: relative;
+  top: 200px;
+  left: 300px;
+  width: 25vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-transform: uppercase;
+}
+
+.form input[type=text]{
+  border-color: var(--cinza);
+}
+
+.card-name-form, .card-number-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-name-form input[type=text], .card-number-form input[type=text]{
+  height: 30px;
+  border-radius: 9px;
+}
+
+.card-details-form{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+.card-details-form input[type=text]{
+  height: 30px;
+  width: 100px;
+  border-radius: 9px;
+}
+
+.card-cvs-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-button{
+  border-radius: 10px;
+  height: 45px;
+  background-color: black;
+  color: var(--cinza);
+}
