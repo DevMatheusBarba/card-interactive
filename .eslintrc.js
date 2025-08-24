@@ -18,6 +18,7 @@ module.exports = {
     // Permite JSX em arquivos .js e .jsx
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/prefer-stateless-function': 'off', // Permite componentes de classe
     // Permite o uso de console.log
   },
 };

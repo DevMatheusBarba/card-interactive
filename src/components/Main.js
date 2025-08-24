@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Background from './background';
+import Card from './card';
 
-export default function Main() {
-  return (
-
-    <div className="App">
-      <h1>Card Interactive</h1>
-
-    </div>
-
-  );
+export default class Main extends Component {
+  render() {
+    return (
+      <Background
+        cardSlot={<Card />}
+        formSlot={<Card />}
+      />
+    );
+  }
 }
