@@ -17,3 +17,7 @@ body{
 button{
   cursor: pointer;
 }
+
+fieldset{
+  border: none;
+}
